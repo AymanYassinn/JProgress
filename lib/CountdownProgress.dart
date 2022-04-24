@@ -44,6 +44,12 @@ class _CountdownProgressState extends State<CountdownProgress> {
   }
 
   @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return widget.progressWidget == ProgressWidget.Indicator
         ? CustomProgress(

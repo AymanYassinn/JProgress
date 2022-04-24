@@ -1,10 +1,10 @@
 name: jprogress
-description: Custom Progress Indicators By Just Codes Developers.
-version: 0.0.1
+description: Custom Progress Indicators By Just Codes Developers Countdown - Download Progress - Upload Progress.
+version: 0.0.2
 homepage: https://github.com/AymanYassinn/JProgress
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
+  sdk: ">=2.16.2 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
