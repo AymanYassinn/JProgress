@@ -110,13 +110,28 @@ class CustomProgressCircle extends StatelessWidget {
 ///[StatelessWidget] customProgress [CustomProgress]
 ///is the main [Widget] that user call it
 class CustomProgress extends StatelessWidget {
+  ///[double] value [size]
   final double size;
+
+  ///[double] value [value]
   final double value;
+
+  ///[String] value [title]
   final String title;
+
+  ///[Color] value [backgroundColor]
   final Color backgroundColor;
+
+  ///[Color] value [valueColor]
   final Color valueColor;
+
+  ///[TextStyle] value [textStyle]
   final TextStyle? textStyle;
+
+  ///[double] value [strokeWidth]
   final double strokeWidth;
+
+  ///[ProgressType] value [progressType]
   final ProgressType progressType;
   const CustomProgress(
       {Key? key,

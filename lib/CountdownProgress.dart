@@ -4,15 +4,34 @@ import 'jprogress.dart';
 ///[StatefulWidget] countDown Progress [CountdownProgress]
 ///Make Count down Progress
 class CountdownProgress extends StatefulWidget {
+  ///[ProgressController] value [controller]
   final ProgressController controller;
+
+  ///[VoidCallback] value [onTimeout]
   final VoidCallback onTimeout;
+
+  ///[Function] value [onUpdate]
   final Function onUpdate;
+
+  ///[double] value [size]
   final double size;
+
+  ///[ProgressWidget] value [progressWidget]
   final ProgressWidget progressWidget;
+
+  ///[ProgressType] value [progressType]
   final ProgressType progressType;
+
+  ///[Color] value [backgroundColor]
   final Color backgroundColor;
+
+  ///[Color] value [valueColor]
   final Color valueColor;
+
+  ///[TextStyle] value [textStyle]
   final TextStyle? textStyle;
+
+  ///[double] value [double]
   final double strokeWidth;
   const CountdownProgress(
       {Key? key,

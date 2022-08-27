@@ -1,5 +1,3 @@
-## 0.0.3
+## 0.0.4
 
-* Update To Flutter 3.0.5
-* Update Packages
-* Update Example
+* Update Documentation
