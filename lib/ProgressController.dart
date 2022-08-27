@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'jprogress.dart';
 
+///Main Progress Controller [ProgressController]
+/// to handle Progress time
 class ProgressController {
   static const double smoothnessConstant = 250;
   final Duration duration;

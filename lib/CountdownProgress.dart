@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'jprogress.dart';
 
+///[StatefulWidget] countDown Progress [CountdownProgress]
+///Make Count down Progress
 class CountdownProgress extends StatefulWidget {
   final ProgressController controller;
   final VoidCallback onTimeout;

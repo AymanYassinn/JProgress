@@ -1,3 +1,5 @@
-## 0.0.2
+## 0.0.3
 
-* Fix Indicator dispose
+* Update To Flutter 3.0.5
+* Update Packages
+* Update Example

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'jprogress.dart';
 
+///[StatelessWidget] customProgress [CustomProgressLinear]
+///Make [LinearProgressIndicator]
 class CustomProgressLinear extends StatelessWidget {
   final double height;
   final double value;
@@ -50,6 +52,8 @@ class CustomProgressLinear extends StatelessWidget {
   }
 }
 
+///[StatelessWidget] customProgress [CustomProgressCircle]
+///Make [CircleProgressIndicator]
 class CustomProgressCircle extends StatelessWidget {
   final double size;
   final double value;
@@ -103,6 +107,8 @@ class CustomProgressCircle extends StatelessWidget {
   }
 }
 
+///[StatelessWidget] customProgress [CustomProgress]
+///is the main [Widget] that user call it
 class CustomProgress extends StatelessWidget {
   final double size;
   final double value;
